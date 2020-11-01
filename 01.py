@@ -32,7 +32,7 @@ from datetime import datetime
 import argparse
 
 parser = argparse.ArgumentParser(description="hogehuga")
-parser.add_argument('filepath', default="log01.txt" ,help="対象となる監視ログファイルへのPATH")
+parser.add_argument('filepath', default="log.txt" ,help="対象となる監視ログファイルへのPATH")
 
 history = {}
 
